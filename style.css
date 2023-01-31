@@ -1,0 +1,83 @@
+body{
+margin: 0;
+padding: 0;
+background: #f1fffa;
+}
+.name{
+    width: 100%;
+    height: 300px;
+    background: #96e6b3;
+    transform: skewY(-5deg);
+}
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+}
+.name .content .p-1{
+    color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .content .p-2{
+    color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name .foto2{
+    padding: 10px; 
+    margin: 10px; 
+    margin-top: 3%;
+    float: right; 
+    width: 250px; 
+    transform: skewY(5deg);
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: #96e6b3;
+    margin: 5% auto;
+    padding: 20px;
+}
+
+.info .tituloseccion{
+    color: antiquewhite;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #f1fffa solid;
+}
+.info .tituloinfo{
+    color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 15px;
+}
+.info .tituloinfoo{
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 15px;  
+    text-align: center;
+}
+.info .infoinfo{
+    color: rgb(45, 95, 43);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-top: 25px;
+}
